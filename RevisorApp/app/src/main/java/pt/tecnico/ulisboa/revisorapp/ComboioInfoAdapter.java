@@ -28,11 +28,11 @@ public class ComboioInfoAdapter extends BaseAdapter {
         ArrayList<String> lista_estacao_segs = new ArrayList<String>();
         Boolean _flag = false;
         for(String estacao : estacoes){
-            if (estacao.equals(_est_seg)){
-                _flag = true;
+            if (_flag){
                 lista_estacao_segs.add(estacao);
             }
-            if (_flag){
+            if (estacao.equals(_est_seg)){
+                _flag = true;
                 lista_estacao_segs.add(estacao);
             }
         }
