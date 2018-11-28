@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 public class ListaComboios extends AppCompatActivity {
 
@@ -28,8 +27,6 @@ public class ListaComboios extends AppCompatActivity {
 
         ComboiosAdapter comboiosAdapter = new ComboiosAdapter(this, id_comboios,sentidos, est_seg);
         myListView.setAdapter(comboiosAdapter);
-        TextView str_title = (TextView) findViewById(R.id.title_comboios);
-        str_title.setText("Lista de Comboios");
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

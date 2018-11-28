@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">RevisorApp</string>
+    <string name="lista_comboios">Lista Comboios</string>
+    <string name="desativar">Desativar</string>
+    <string name="esta_es_seguintes">Estações Seguintes</string>
     <string-array name="ID">
         <item>1</item>
         <item>2</item>
