@@ -117,7 +117,8 @@ public class ComboioInfo extends AppCompatActivity {
             str_sentido.setText("Senhora da Hora - Fazeres");
             str_sentido.setTextColor(Color.parseColor("#FF8C00"));
         }
-        TextView str_comboios = (TextView) findViewById(R.id.comboio_ID);
+
+        TextView str_comboios = (TextView) findViewById(R.id.Comboio_tv);
         String name = "C-";
         if (id_comboios[index].length()==1)
             name += "00" + id_comboios[index] + "";
