@@ -2,9 +2,11 @@ package pt.tecnico.ulisboa.revisorapp;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class ComboioInfo extends AppCompatActivity {
     ListView myListView;
@@ -64,5 +66,56 @@ public class ComboioInfo extends AppCompatActivity {
         ComboioInfoAdapter comboioInfoAdapter = new ComboioInfoAdapter(this, id_comboios[index],
                 est_seg[index], sentidos[index], estacoes, index);
         myListView.setAdapter(comboioInfoAdapter);
+        TextView str_sentido = (TextView) findViewById(R.id.sentido_comboio);
+        String sentido_aux = sentidos[index];
+
+        if ((sentido_aux.equals("A1"))){
+            str_sentido.setText("Estadio do Dragao - Senhor de Matosinhos");
+            str_sentido.setTextColor(Color.BLUE);
+        }
+        else if ((sentido_aux.equals("B1"))){
+            str_sentido.setText("Estadio do Dragao - Povoa de Varzim");
+            str_sentido.setTextColor(Color.RED);
+        }
+        else if ((sentido_aux.equals("C1"))){
+            str_sentido.setText("Campanha - ISMAI");
+            str_sentido.setTextColor(Color.parseColor("#32CD32"));
+        }
+        else if ((sentido_aux.equals("D1")) ){
+            str_sentido.setText("Hospital Sao Joao - Santo Ovidio");
+            str_sentido.setTextColor(Color.parseColor("#ffd700"));
+        }
+        else if ((sentido_aux.equals("E1"))){
+            str_sentido.setText("Estadio do Dragao - Aeroporto");
+            str_sentido.setTextColor(Color.parseColor("#4B0082"));
+        }
+        else if ((sentido_aux.equals("F1"))){
+            str_sentido.setText("Senhora da Hora - Fazeres");
+            str_sentido.setTextColor(Color.parseColor("#FF8C00"));
+        }
+        else if ((sentido_aux.equals("A2"))){
+            str_sentido.setText("Estadio do Dragao - Senhor de Matosinhos");
+            str_sentido.setTextColor(Color.BLUE);
+        }
+        else if ((sentido_aux.equals("B2"))){
+            str_sentido.setText("Estadio do Dragao - Povoa de Varzim");
+            str_sentido.setTextColor(Color.RED);
+        }
+        else if ((sentido_aux.equals("C2"))){
+            str_sentido.setText("Campanha - ISMAI");
+            str_sentido.setTextColor(Color.parseColor("#32CD32"));
+        }
+        else if ((sentido_aux.equals("D2")) ){
+            str_sentido.setText("Hospital Sao Joao - Santo Ovidio");
+            str_sentido.setTextColor(Color.parseColor("#ffd700"));
+        }
+        else if ((sentido_aux.equals("E2"))){
+            str_sentido.setText("Estadio do Dragao - Aeroporto");
+            str_sentido.setTextColor(Color.parseColor("#4B0082"));
+        }
+        else if ((sentido_aux.equals("F2"))){
+            str_sentido.setText("Senhora da Hora - Fazeres");
+            str_sentido.setTextColor(Color.parseColor("#FF8C00"));
+        }
     }
 }
