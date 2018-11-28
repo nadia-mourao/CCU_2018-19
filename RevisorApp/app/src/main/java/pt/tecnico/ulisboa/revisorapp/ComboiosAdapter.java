@@ -41,7 +41,7 @@ public class ComboiosAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        View v = mInflater.inflate(R.layout.list_comboios_detail,null);
+        View v = mInflater.inflate(R.layout.list_estacoes_detail,null);
         TextView str_comboios = (TextView) v.findViewById(R.id.comboio_ID);
         TextView str_sentido = (TextView) v.findViewById(R.id.Sentido);
         TextView str_est_seg = (TextView) v.findViewById(R.id.est_seg_tv);
@@ -68,7 +68,7 @@ public class ComboiosAdapter extends BaseAdapter {
         }
         else if ((sentido_aux.equals("C1"))){
             str_sentido.setText("Campanha - ISMAI");
-            str_sentido.setTextColor(Color.GREEN);
+            str_sentido.setTextColor(Color.parseColor("#32CD32"));
         }
         else if ((sentido_aux.equals("D1")) ){
             str_sentido.setText("Hospital Sao Joao - Santo Ovidio");
@@ -92,7 +92,7 @@ public class ComboiosAdapter extends BaseAdapter {
         }
         else if ((sentido_aux.equals("C2"))){
             str_sentido.setText("Campanha - ISMAI");
-            str_sentido.setTextColor(Color.GREEN);
+            str_sentido.setTextColor(Color.parseColor("#32CD32"));
         }
         else if ((sentido_aux.equals("D2")) ){
             str_sentido.setText("Hospital Sao Joao - Santo Ovidio");
@@ -109,8 +109,6 @@ public class ComboiosAdapter extends BaseAdapter {
 
         str_comboios.setText(name);
         str_est_seg.setText(est_seg);
-
-
 
         return v;
     }
