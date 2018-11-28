@@ -1,11 +1,8 @@
 package pt.tecnico.ulisboa.revisorapp;
 
-import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -31,7 +28,7 @@ public class ListaComboios extends AppCompatActivity {
 
         TextView str_title = (TextView) findViewById(R.id.title_comboio);
         str_title.setText("Lista de Comboios");
-
+        /*
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -39,7 +36,7 @@ public class ListaComboios extends AppCompatActivity {
                 showComboioInfo.putExtra("pt.tecnico.ulisboa.ITEM_INDEX", i);
                 startActivity(showComboioInfo);
             }
-        });
+        });*/
 
         /*
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/comboio_ID"
         android:layout_below="@+id/comboio_ID"
+        android:layout_toStartOf="@+id/est_seg_tv"
         android:text="Sentido"
         android:textSize="20sp" />
 
