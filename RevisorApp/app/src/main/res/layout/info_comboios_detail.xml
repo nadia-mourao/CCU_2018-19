@@ -47,5 +47,7 @@
         android:textColorLink="@android:color/holo_blue_dark"
         android:textOff="Off"
         android:textOn="On"
+        android:theme="@style/SCBSwitch"
         tools:checked="false" />
+    
 </RelativeLayout>
