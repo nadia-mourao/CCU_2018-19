@@ -43,6 +43,7 @@
         android:checked="true"
         android:showText="true"
         android:splitTrack="false"
+        android:textColorHighlight="@color/colorPrimaryDark"
         android:textColorLink="@android:color/holo_blue_dark"
         android:textOff="Off"
         android:textOn="On"
