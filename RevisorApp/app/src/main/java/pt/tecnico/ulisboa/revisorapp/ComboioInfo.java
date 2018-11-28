@@ -83,7 +83,7 @@ public class ComboioInfo extends AppCompatActivity {
         }
         else if ((sentido_aux.equals("D1")) ){
             str_sentido.setText("Hospital Sao Joao - Santo Ovidio");
-            str_sentido.setTextColor(Color.parseColor("#ffd700"));
+            str_sentido.setTextColor(Color.parseColor("#cdb403"));
         }
         else if ((sentido_aux.equals("E1"))){
             str_sentido.setText("Estadio do Dragao - Aeroporto");
@@ -107,7 +107,7 @@ public class ComboioInfo extends AppCompatActivity {
         }
         else if ((sentido_aux.equals("D2")) ){
             str_sentido.setText("Hospital Sao Joao - Santo Ovidio");
-            str_sentido.setTextColor(Color.parseColor("#ffd700"));
+            str_sentido.setTextColor(Color.parseColor("#cdb403"));
         }
         else if ((sentido_aux.equals("E2"))){
             str_sentido.setText("Estadio do Dragao - Aeroporto");
