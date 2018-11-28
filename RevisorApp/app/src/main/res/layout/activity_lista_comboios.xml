@@ -7,7 +7,7 @@
     tools:context="pt.tecnico.ulisboa.revisorapp.ListaComboios">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/title_comboio"
         android:layout_width="wrap_content"
         android:layout_height="41dp"
         android:layout_marginBottom="8dp"
@@ -30,7 +30,7 @@
         android:headerDividersEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/title_comboio" />
 
 
 
