@@ -3,6 +3,7 @@
     <string name="lista_comboios">Lista Comboios</string>
     <string name="desativar">Desativar</string>
     <string name="esta_es_seguintes">Estações Seguintes</string>
+    <string name="desativar_maquinhas_de_valida_o">Desativar Maquinhas de Validação</string>
     <string-array name="ID">
         <item>1</item>
         <item>2</item>

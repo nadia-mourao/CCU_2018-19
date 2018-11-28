@@ -17,8 +17,7 @@
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/estacao_tv"
-        android:layout_marginEnd="20dp"
-        android:text="Switch" />
+        android:layout_alignStart="@+id/estacao_tv"
+        android:layout_below="@+id/estacao_tv"
+        android:text="@string/desativar_maquinhas_de_valida_o" />
 </RelativeLayout>
