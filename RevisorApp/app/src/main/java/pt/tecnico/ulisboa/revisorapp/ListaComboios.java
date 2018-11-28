@@ -22,7 +22,7 @@ public class ListaComboios extends AppCompatActivity {
         linhas = res.getStringArray(R.array.Linhas);
         sentidos = res.getStringArray(R.array.Sentidos);
 
-        ComboiosAdapter comboiosAdapter = new ComboiosAdapter(this, id_comboios,sentidos);
+        ComboiosAdapter comboiosAdapter = new ComboiosAdapter(this, id_comboios,sentidos, est_seg);
         myListView.setAdapter(comboiosAdapter);
 
     }

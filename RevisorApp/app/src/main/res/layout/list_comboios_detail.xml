@@ -21,4 +21,14 @@
         android:layout_below="@+id/comboio_ID"
         android:text="Sentido"
         android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/est_seg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/comboio_ID"
+        android:layout_marginEnd="17dp"
+        android:text="TextView"
+        android:textSize="20sp" />
 </RelativeLayout>
