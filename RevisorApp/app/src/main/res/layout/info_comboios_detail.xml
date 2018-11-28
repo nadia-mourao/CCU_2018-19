@@ -49,5 +49,5 @@
         android:textOn="On"
         android:theme="@style/SCBSwitch"
         tools:checked="false" />
-    
+
 </RelativeLayout>
