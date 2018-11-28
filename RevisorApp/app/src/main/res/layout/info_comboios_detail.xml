@@ -43,7 +43,7 @@
         android:checked="true"
         android:showText="true"
         android:splitTrack="false"
-        android:textOff="Desativar"
-        android:textOn="Ativar"
+        android:textOff="Off"
+        android:textOn="On"
         tools:checked="false" />
 </RelativeLayout>
