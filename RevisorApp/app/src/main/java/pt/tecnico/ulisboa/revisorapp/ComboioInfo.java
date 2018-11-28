@@ -61,5 +61,8 @@ public class ComboioInfo extends AppCompatActivity {
         else if (sentido.equals("F2")){
             estacoes = res.getStringArray(R.array.F2);
         }
+        ComboioInfoAdapter comboioInfoAdapter = new ComboioInfoAdapter(this, id_comboios[index],
+                est_seg[index], sentidos[index], estacoes, index);
+        myListView.setAdapter(comboioInfoAdapter);
     }
 }

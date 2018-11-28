@@ -6,17 +6,6 @@
     android:layout_height="match_parent"
     tools:context="pt.tecnico.ulisboa.revisorapp.ListaComboios">
 
-    <ListView
-        android:id="@+id/list_comboios"
-        android:layout_width="match_parent"
-        android:layout_height="495dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:headerDividersEnabled="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="54dp" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -31,5 +20,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/list_comboios"
+        android:layout_width="match_parent"
+        android:layout_height="495dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:headerDividersEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="101dp" />
+
+
 
 </android.support.constraint.ConstraintLayout>
