@@ -38,5 +38,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/est_seg_tv"
-        android:layout_alignTop="@+id/Sentido" />
+        android:layout_alignTop="@+id/Sentido"
+        android:checked="true"
+        android:textOff="Desativar"
+        android:textOn="Ativar" />
 </RelativeLayout>
