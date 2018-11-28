@@ -18,7 +18,7 @@ public class ComboioInfo extends AppCompatActivity {
         int index = in.getIntExtra("pt.tecnico.ulisboa.ITEM_INDEX",-1);
 
         Resources res = getResources();
-        myListView = (ListView) findViewById(R.id.list_comboios);
+        myListView = (ListView) findViewById(R.id.list_est_seg);
         id_comboios = res.getStringArray(R.array.ID);
         est_seg = res.getStringArray(R.array.Estacao_seguinte);
         linhas = res.getStringArray(R.array.Linhas);

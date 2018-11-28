@@ -35,10 +35,20 @@ public class ListaComboios extends AppCompatActivity {
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent showComboioInfo = new Intent(getApplicationContext(),ComboioInfo.class);
+                Intent showComboioInfo = new Intent(getApplicationContext(), ComboioInfo.class);
                 showComboioInfo.putExtra("pt.tecnico.ulisboa.ITEM_INDEX", i);
                 startActivity(showComboioInfo);
             }
         });
+
+        /*
+        myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent showComboioInfo = new Intent(getApplicationContext(),ComboioInfo.class);
+                showComboioInfo.putExtra("pt.tecnico.ulisboa.ITEM_INDEX", i);
+                startActivity(showComboioInfo);
+            }
+        });*/
     }
 }
