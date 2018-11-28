@@ -41,7 +41,7 @@ public class ComboiosAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        View v = mInflater.inflate(R.layout.list_estacoes_detail,null);
+        View v = mInflater.inflate(R.layout.info_comboios_detail,null);
         TextView str_comboios = (TextView) v.findViewById(R.id.comboio_ID);
         TextView str_sentido = (TextView) v.findViewById(R.id.Sentido);
         TextView str_est_seg = (TextView) v.findViewById(R.id.est_seg_tv);
