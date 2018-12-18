@@ -1,0 +1,357 @@
+<resources>
+    <string name="app_name">App Launcher</string>
+
+    <string-array name="A1">
+
+        <item>Estadio do Dragao</item>
+        <item>Campanha</item>
+        <item>Heroismo</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Bolhao</item>
+        <item>Trindade</item>
+        <item>Lapa</item>
+        <item>Carolina Michaelis</item>
+        <item>Casa da Musica</item>
+        <item>Francos</item>
+        <item>Ramalde</item>
+        <item>Via Rapida / Viso</item>
+        <item>Sete Bicas</item>
+        <item>Senhora da Hora</item>
+        <item>Vasco da Gama</item>
+        <item>Estadio do Mar</item>
+        <item>Pedro Hispano</item>
+        <item>Parque Real</item>
+        <item>Camara Matosinhos</item>
+        <item>Matosinhos Sul</item>
+        <item>Brito Capelo</item>
+        <item>Mercado</item>
+        <item>Senhor de Matosinhos</item>
+    </string-array>
+
+    <string-array name="A2">
+
+        <item>Senhor de Matosinhos</item>
+        <item>Mercado</item>
+        <item>Brito Capelo</item>
+        <item>Matosinhos Sul</item>
+        <item>Camara Matosinhos</item>
+        <item>Parque Real</item>
+        <item>Pedro Hispano</item>
+        <item>Estadio do Mar</item>
+        <item>Vasco da Gama</item>
+        <item>Senhora da Hora</item>
+        <item>Sete Bicas</item>
+        <item>Via Rapida / Viso</item>
+        <item>Ramalde</item>
+        <item>Francos</item>
+        <item>Casa da Musica</item>
+        <item>Carolina Michaelis</item>
+        <item>Lapa</item>
+        <item>Trindade</item>
+        <item>Bolhao</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Heroismo</item>
+        <item>Campanha</item>
+        <item>Estadio do Dragao</item>
+
+    </string-array>
+
+    <string-array name="B1">
+
+        <item>Estadio do Dragao</item>
+        <item>Campanha</item>
+        <item>Heroismo</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Bolhao</item>
+        <item>Trindade</item>
+        <item>Lapa</item>
+        <item>Carolina Michaelis</item>
+        <item>Casa da Musica</item>
+        <item>Francos</item>
+        <item>Ramalde</item>
+        <item>Via Rapida / Viso</item>
+        <item>Sete Bicas</item>
+        <item>Senhora da Hora</item>
+        <item>Fonte do Cuco</item>
+        <item>Custoias</item>
+        <item>Esposade</item>
+        <item>Crestins</item>
+        <item>Verdes</item>
+        <item>Pedras Rubras</item>
+        <item>Lidador</item>
+        <item>Vilar do Pinheiro</item>
+        <item>Modivas Sul</item>
+        <item>Modivas Centro</item>
+        <item>VC Fashion Outlet / Modivas</item>
+        <item>Mindelo</item>
+        <item>Espaco Natureza</item>
+        <item>Varziela</item>
+        <item>Arvore</item>
+        <item>Azurara</item>
+        <item>Santa Clara</item>
+        <item>Vila do Conde</item>
+        <item>Alto de Pega</item>
+        <item>Portas Fronhas</item>
+        <item>Sao Bras</item>
+        <item>Povoa de Varzim</item>
+
+    </string-array>
+
+    <string-array name="B2">
+
+        <item>Povoa de Varzim</item>
+        <item>Sao Bras</item>
+        <item>Portas Fronhas</item>
+        <item>Alto de Pega</item>
+        <item>Vila do Conde</item>
+        <item>Santa Clara</item>
+        <item>Azurara</item>
+        <item>Arvore</item>
+        <item>Varziela</item>
+        <item>Espaco Natureza</item>
+        <item>Mindelo</item>
+        <item>VC Fashion Outlet / Modivas</item>
+        <item>Modivas Centro</item>
+        <item>Modivas Sul</item>
+        <item>Vilar do Pinheiro</item>
+        <item>Lidador</item>
+        <item>Pedras Rubras</item>
+        <item>Verdes</item>
+        <item>Crestins</item>
+        <item>Esposade</item>
+        <item>Custoias</item>
+        <item>Fonte do Cuco</item>
+        <item>Senhora da Hora</item>
+        <item>Sete Bicas</item>
+        <item>Via Rapida / Viso</item>
+        <item>Ramalde</item>
+        <item>Francos</item>
+        <item>Casa da Musica</item>
+        <item>Carolina Michaelis</item>
+        <item>Lapa</item>
+        <item>Trindade</item>
+        <item>Bolhao</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Heroismo</item>
+        <item>Campanha</item>
+        <item>Estadio do Dragao</item>
+
+    </string-array>
+
+    <string-array name="C1">
+
+        <item>Campanha</item>
+        <item>Heroismo</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Bolhao</item>
+        <item>Trindade</item>
+        <item>Lapa</item>
+        <item>Carolina Michaelis</item>
+        <item>Casa da Musica</item>
+        <item>Francos</item>
+        <item>Ramalde</item>
+        <item>Via Rapida / Viso</item>
+        <item>Sete Bicas</item>
+        <item>Senhora da Hora</item>
+        <item>Fonte do Cuco</item>
+        <item>Candido dos Reis</item>
+        <item>Pias</item>
+        <item>Araujo</item>
+        <item>Custio</item>
+        <item>Parque da Maia</item>
+        <item>Forum da Maia</item>
+        <item>Zona Industrial</item>
+        <item>Mandim</item>
+        <item>Castelo da Maia</item>
+        <item>ISMAI</item>
+
+    </string-array>
+    
+    <string-array name="C2">
+
+        <item>ISMAI</item>
+        <item>Castelo da Maia</item>
+        <item>Mandim</item>
+        <item>Zona Industrial</item>
+        <item>Forum da Maia</item>
+        <item>Parque da Maia</item>
+        <item>Custio</item>
+        <item>Araujo</item>
+        <item>Pias</item>
+        <item>Candido dos Reis</item>
+        <item>Fonte do Cuco</item>
+        <item>Senhora da Hora</item>
+        <item>Sete Bicas</item>
+        <item>Via Rapida / Viso</item>
+        <item>Ramalde</item>
+        <item>Francos</item>
+        <item>Casa da Musica</item>
+        <item>Carolina Michaelis</item>
+        <item>Lapa</item>
+        <item>Trindade</item>
+        <item>Bolhao</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Heroismo</item>
+        <item>Campanha</item>
+
+    </string-array>
+
+    <string-array name="D1">
+
+        <item>Hospital de Sao Joao</item>
+        <item>IPO</item>
+        <item>Polo Universitario</item>
+        <item>Salgueiros</item>
+        <item>Combatentes</item>
+        <item>Marques </item>
+        <item>Faria Guimaraes</item>
+        <item>Trindade</item>
+        <item>Aliados</item>
+        <item>Sao Bento</item>
+        <item>Jardim do Morro</item>
+        <item>General Torres</item>
+        <item>Camara Gaia</item>
+        <item>Joao de Deus</item>
+        <item>D. Joao II </item>
+        <item>Santo Ovidio</item>
+        <item>Manuel Leao (2022)</item>
+        <item>Hospital Santos Silva (2022)</item>
+        <item>Vila d Este</item>
+
+    </string-array>
+
+    <string-array name="D2">
+
+        <item>Vila d Este</item>
+        <item>Hospital Santos Silva (2022)</item>
+        <item>Manuel Leao (2022)</item>
+        <item>Santo Ovidio</item>
+        <item>D. Joao II </item>
+        <item>Joao de Deus</item>
+        <item>Camara Gaia</item>
+        <item>General Torres</item>
+        <item>Jardim do Morro</item>
+        <item>Sao Bento</item>
+        <item>Aliados</item>
+        <item>Trindade</item>
+        <item>Faria Guimaraes</item>
+        <item>Marques </item>
+        <item>Combatentes</item>
+        <item>Salgueiros</item>
+        <item>Polo Universitario</item>
+        <item>IPO</item>
+        <item>Hospital de Sao Joao</item>
+
+    </string-array>
+
+    <string-array name="E1">
+
+        <item>Estadio do Dragao</item>
+        <item>Campanha</item>
+        <item>Heroismo</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Bolhao</item>
+        <item>Trindade</item>
+        <item>Lapa</item>
+        <item>Carolina Michaelis</item>
+        <item>Casa da Musica</item>
+        <item>Francos</item>
+        <item>Ramalde</item>
+        <item>Via Rapida / Viso</item>
+        <item>Sete Bicas</item>
+        <item>Senhora da Hora</item>
+        <item>Fonte do Cuco</item>
+        <item>Custoias</item>
+        <item>Esposade</item>
+        <item>Crestins</item>
+        <item>Verdes</item>
+        <item>Botica</item>
+        <item>Lidador</item>
+        <item>Aeroporto</item>
+
+    </string-array>
+
+    <string-array name="E2">
+
+        <item>Aeroporto</item>
+        <item>Lidador</item>
+        <item>Botica</item>
+        <item>Verdes</item>
+        <item>Crestins</item>
+        <item>Esposade</item>
+        <item>Custoias</item>
+        <item>Fonte do Cuco</item>
+        <item>Senhora da Hora</item>
+        <item>Sete Bicas</item>
+        <item>Via Rapida / Viso</item>
+        <item>Ramalde</item>
+        <item>Francos</item>
+        <item>Casa da Musica</item>
+        <item>Carolina Michaelis</item>
+        <item>Lapa</item>
+        <item>Trindade</item>
+        <item>Bolhao</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Heroismo</item>
+        <item>Campanha</item>
+        <item>Estadio do Dragao</item>
+
+    </string-array>
+
+    <string-array name="F1">
+        <item>Fanzeres</item>
+        <item>Venda Nova</item>
+        <item>Carreira</item>
+        <item>Baguim</item>
+        <item>Campainha</item>
+        <item>Rio Tinto</item>
+        <item>Levada</item>
+        <item>Nau Vitoria</item>
+        <item>Nasoni</item>
+        <item>Contumil </item>
+        <item>Estadio do Dragao </item>
+        <item>Campanha</item>
+        <item>Heroismo</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Bolhao</item>
+        <item>Trindade</item>
+        <item>Lapa</item>
+        <item>Carolina Michaelis</item>
+        <item>Casa da Musica</item>
+        <item>Francos</item>
+        <item>Ramalde</item>
+        <item>Via Rapida / Viso</item>
+        <item>Sete Bicas</item>
+        <item>Senhora da Hora</item>
+
+    </string-array>
+
+    <string-array name="F2">
+
+        <item>Senhora da Hora</item>
+        <item>Sete Bicas</item>
+        <item>Via Rapida / Viso</item>
+        <item>Ramalde</item>
+        <item>Francos</item>
+        <item>Casa da Musica</item>
+        <item>Carolina Michaelis</item>
+        <item>Lapa</item>
+        <item>Trindade</item>
+        <item>Bolhao</item>
+        <item>Campo 24 de Agosto</item>
+        <item>Heroismo</item>
+        <item>Campanha</item>
+        <item>Estadio do Dragao </item>
+        <item>Contumil </item>
+        <item>Nasoni</item>
+        <item>Nau Vitoria</item>
+        <item>Levada</item>
+        <item>Rio Tinto</item>
+        <item>Campainha</item>
+        <item>Baguim</item>
+        <item>Carreira</item>
+        <item>Venda Nova</item>
+        <item>Fanzeres</item>
+
+    </string-array>
+</resources>
