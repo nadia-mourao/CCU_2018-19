@@ -11,8 +11,8 @@ import android.widget.Button;
 import android.widget.Spinner;
 
 public class EscolherEstacao extends Activity {
-    String estacao = "Estadio do Dragao";
-    String linha = "A";
+    public static String estacao = "Estadio do Dragao";
+    public static String linha = "A";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,8 +23,8 @@ public class EscolherEstacao extends Activity {
             @Override
             public void onClick(View v) {
                 Intent startIntent = new Intent (getApplicationContext(), ObservarEstacao.class);
-                startIntent.putExtra("com.example.user.metrorevisorapp.ESTACAO", estacao);
-                startIntent.putExtra("com.example.user.metrorevisorapp.LINHA", linha);
+                startIntent.putExtra("ESTACAO", EscolherEstacao.estacao);
+                startIntent.putExtra("LINHA", EscolherEstacao.linha);
                 startActivity(startIntent);
 
             }
@@ -44,26 +44,32 @@ public class EscolherEstacao extends Activity {
                     case 0:
                         id_estacao = getResources().getStringArray(R.array.A1);
                         run(id_estacao,"A");
+                        linha="A";
                         break;
                     case 1:
                         id_estacao = getResources().getStringArray(R.array.B1);
                         run(id_estacao,"B");
+                        linha="B";
                         break;
                     case 2:
                         id_estacao = getResources().getStringArray(R.array.C1);
                         run(id_estacao,"C");
+                        linha="C";
                         break;
                     case 3:
                         id_estacao = getResources().getStringArray(R.array.D1);
                         run(id_estacao,"D");
+                        linha="D";
                         break;
                     case 4:
                         id_estacao = getResources().getStringArray(R.array.E1);
                         run(id_estacao,"E");
+                        linha="E";
                         break;
                     case 5:
                         id_estacao = getResources().getStringArray(R.array.F1);
                         run(id_estacao, "F");
+                        linha="E";
                         break;
                 }
             }

@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">MetroRevisorApp</string>
+    <string name="bloquear">Bloquear</string>
+    <string name="selecione_um_comboio">Selecione um comboio</string>
+    <string name="n_pessoas_sem_bilhete_v_lido">Nº pessoas sem bilhete válido:</string>
 
     <string-array name="ID">
         <item>C-001</item>
