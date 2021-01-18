@@ -1,7 +1,7 @@
 # CCU_2018-19
 Proj de CCU
 
-Nome             | Numero | mail
+Nome             | Número | Email
 -----------------|--------|----------------------------------
 Nádia Mourão     | 82259  | nadia.mourao@tecnico.ulisboa.pt
 Hugo Lencastre   | 75874  | hugo.emanuel.lencastre@gmail.com
